@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpStrAuto" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Auto\par
+\b0\fs22 Ein Auto wird \lang1031 Marke und Modell definiert. Verfeinert wird das ganze \'fcber das Kommentarfeld. Zus\'e4tzlich l\'e4sst sich das Kaufdatum notieren.\lang9\par
+}</value>
+  </data>
+  <data name="helpStrDatum" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Datum\par
+\b0\fs22 Das Feld 'Datum' steht f\'fcr das Kaufdatum und wird zur Berechnung der Statistik verwendet.\par
+}</value>
+  </data>
+  <data name="helpStrEinberechnen" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Einberechnen\par
+\b0\fs22 Das Feld \lang2057 'Einberechnen' gibt an, ob der Eintrag in die Kostenrechnung aufgenommen werden soll. Wenn die Option ausgew\lang1031\'e4hlt wird, wird der Preis in die Kosten einsummiert. Wenn die Option nicht ausgew\'e4hlt wird, wird der Preis nicht einsummiert.\par
+Durch das Dr\'fccken der Taste T in der Auflistung kann dieser Wert schnell umgeschaltet werden.\fs28\lang9\par
+}</value>
+  </data>
+  <data name="helpStrEintraege" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Eintr\'e4ge\par
+\b0\fs22 Jedem Auto wird eine beliebige Anzahl von Eintr\'e4gen zugeordnet. Die Eintr\'e4ge beschreiben Kosten, welche entstanden sind.\par
+Beispiele:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 Kaufpreis\par
+{\pntext\f1\'B7\tab}Hauptuntersuchung (T\'dcV)\par
+{\pntext\f1\'B7\tab}Anmeldung\par
+{\pntext\f1\'B7\tab}Ersatzteile\par
+{\pntext\f1\'B7\tab}etc\par
+}</value>
+  </data>
+  <data name="helpStrKommentar" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Kommentar\par
+\b0\fs22 Das Feld 'Kommentar' ist zur eindeutigen Indentifzierung des Autos gedacht. Es ist ein Freitextfeld und kann auch leer gelassen werden.\par
+Sinnvolle Ideen zur Verwendung:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 Motorisierung\fs28\par
+{\pntext\f1\'B7\tab}\fs22 Kennzeichen\fs28\par
+{\pntext\f1\'B7\tab}\fs22 Farbe\fs28\par
+}</value>
+  </data>
+  <data name="helpStrMarke" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Marke\par
+\b0\fs22 Das Feld \lang2057 'Marke' gibt die Automarke an.\fs28\lang9\par
+}</value>
+  </data>
+  <data name="helpStrModell" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Modell\par
+\b0\fs22 Das Feld \lang2057 'Modell' gibt das Automodell an.\fs28\lang9\par
+}</value>
+  </data>
+  <data name="helpStrPay" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Aussch\'fcttung\par
+\b0\fs22 Die Aussch\'fcttung ist die Summe, welche jede Person am Ende ausgezahlt bekommt. Die Aussch\'fcttung wird dabei so berechnet, dass jede Person zuerst den eigenen Einsatz ausgezahlt bekommt. Der Gewinn wird dann zu gleichen Anteilen auf alle Personen verteilt.\par
+Es wird empfohlen s\'e4mtliche Einnahmen am Ende in einem Topf zu sammeln und daraus auszuzahlen, um kompliziertes hin- und herrechnen zu vermeiden.\fs28\par
+}</value>
+  </data>
+  <data name="helpStrPerson" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri; } }
+                {\*\generator Riched20 10.0.19041}\viewkind4\uc1
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Person\par
+\b0\fs22 Das Feld 'Person' beschreibt, welche Person diese Position bezahlt hat.\line Personen k\lang1031\'f6nnen in den Einstellungen hinzugef\'fcgt werden.\par
+Die Person \lang2057 'Offen' ist ein Spezialfall und repr\lang1031\'e4sentiert, dass die Position (noch) von Niemandem bezahlt wurde.\fs28\lang9\par
+}</value>
+  </data>
+  <data name="helpStrPosition" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Position\par
+\b0\fs22 Das Feld 'Position' beschreibt den Eintrag.Dies kann der Name eines Ersatzteils, einer Dienstleistung oder auch Teilenummer sein.\fs28\par
+}</value>
+  </data>
+  <data name="helpStrPreis" xml:space="preserve">
+    <value>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;
+                    }
+                    {\f1\fnil\fcharset2 Symbol;
+                    }
+                }
+                {\*\generator Riched20 10.0.19041}\viewkind4\uc1
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 Preis\par
+\b0\fs22 Das Feld 'Preis' beschreibt den Preis des Eintrags.Der Preis wird dabei als Kommazahl eingegeben. \par
+\par
+Beispiele:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 150,00\par
+{\pntext\f1\'B7\tab}10,99\par
+{\pntext\f1\'B7\tab}11\par
+{\pntext\f1\'B7\tab}0,50\line\fs28\par
+}</value>
+  </data>
+  <data name="UserNone" xml:space="preserve">
+    <value>Offen</value>
+  </data>
+</root>

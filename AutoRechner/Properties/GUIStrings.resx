@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonAbout" xml:space="preserve">
+    <value>&amp;Info</value>
+  </data>
+  <data name="ButtonAddBrand" xml:space="preserve">
+    <value>Marke einfügen</value>
+  </data>
+  <data name="ButtonAddPart" xml:space="preserve">
+    <value>Teil einfügen</value>
+  </data>
+  <data name="ButtonAddUser" xml:space="preserve">
+    <value>Nutzer einfügen</value>
+  </data>
+  <data name="ButtonBackToOverview" xml:space="preserve">
+    <value>&amp;Zurück zur Übersicht</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>&amp;Abbrechen</value>
+  </data>
+  <data name="ButtonCar" xml:space="preserve">
+    <value>&amp;Auto</value>
+  </data>
+  <data name="ButtonClear" xml:space="preserve">
+    <value>&amp;Leeren</value>
+  </data>
+  <data name="ButtonDatabase" xml:space="preserve">
+    <value>&amp;Datenbank</value>
+  </data>
+  <data name="ButtonDelete" xml:space="preserve">
+    <value>&amp;Löschen</value>
+  </data>
+  <data name="ButtonDeleteBrand" xml:space="preserve">
+    <value>Marke löschen</value>
+  </data>
+  <data name="ButtonDeleteForSure" xml:space="preserve">
+    <value>Wirklich löschen</value>
+  </data>
+  <data name="ButtonDeletePart" xml:space="preserve">
+    <value>Teil löschen</value>
+  </data>
+  <data name="ButtonDeleteUser" xml:space="preserve">
+    <value>Nutzer löschen</value>
+  </data>
+  <data name="ButtonEdit" xml:space="preserve">
+    <value>&amp;Bearbeiten</value>
+  </data>
+  <data name="ButtonExit" xml:space="preserve">
+    <value>&amp;Beenden</value>
+  </data>
+  <data name="ButtonExport" xml:space="preserve">
+    <value>&amp;Exportieren</value>
+  </data>
+  <data name="ButtonExtra" xml:space="preserve">
+    <value>&amp;Extra</value>
+  </data>
+  <data name="ButtonHelp" xml:space="preserve">
+    <value>&amp;Hilfe</value>
+  </data>
+  <data name="ButtonInsert" xml:space="preserve">
+    <value>&amp;Einfügen</value>
+  </data>
+  <data name="ButtonLoad" xml:space="preserve">
+    <value>&amp;Laden</value>
+  </data>
+  <data name="ButtonNew" xml:space="preserve">
+    <value>&amp;Neu</value>
+  </data>
+  <data name="ButtonRecalculate" xml:space="preserve">
+    <value>&amp;Neu berechnen</value>
+  </data>
+  <data name="ButtonReload" xml:space="preserve">
+    <value>&amp;Neu laden</value>
+  </data>
+  <data name="ButtonSave" xml:space="preserve">
+    <value>&amp;Speichern</value>
+  </data>
+  <data name="ButtonSaveAndClose" xml:space="preserve">
+    <value>Speichern und beenden</value>
+  </data>
+  <data name="ButtonSettings" xml:space="preserve">
+    <value>&amp;Einstellungen</value>
+  </data>
+  <data name="ButtonStats" xml:space="preserve">
+    <value>&amp;Statistik</value>
+  </data>
+  <data name="CaptchaMismatch" xml:space="preserve">
+    <value>Code stimmt nicht überein!</value>
+  </data>
+  <data name="ClearDatabaseWarning" xml:space="preserve">
+    <value>DAS LEEREN DER DATENBANK
+FÜHRT ZUM UNWIDERRUFLICHEN
+VERLUST ALLER FAHRZEUGE!</value>
+  </data>
+  <data name="Conclusion" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="ConfirmBack" xml:space="preserve">
+    <value>Zurück zur Fahrzeugübersicht?</value>
+  </data>
+  <data name="ConfirmExit" xml:space="preserve">
+    <value>Wirklich beenden?</value>
+  </data>
+  <data name="DatabaseExportFilter" xml:space="preserve">
+    <value>XML Datei</value>
+  </data>
+  <data name="DropDBLastChance" xml:space="preserve">
+    <value>Letzte Chance!!! Wirklich löschen?</value>
+  </data>
+  <data name="EmptyBrandError" xml:space="preserve">
+    <value>Die Marke darf nicht leer sein!</value>
+  </data>
+  <data name="EmptyCommentWarning" xml:space="preserve">
+    <value>Soll der Kommentar wirklich leer sein?
+Er kann später sehr hilfreich sein!</value>
+  </data>
+  <data name="EmptyModelError" xml:space="preserve">
+    <value>Das Modell darf nicht leer sein!</value>
+  </data>
+  <data name="EmptyPartError" xml:space="preserve">
+    <value>Der Teilname darf nicht leer sein!</value>
+  </data>
+  <data name="EmptyPersonError" xml:space="preserve">
+    <value>Person darf nicht leer sein!</value>
+  </data>
+  <data name="EmptyPositionError" xml:space="preserve">
+    <value>Position darf nicht leer sein!</value>
+  </data>
+  <data name="EmptyUsernameError" xml:space="preserve">
+    <value>Benutzername darf nicht leer sein!</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="ErrorNoDatabaseFile" xml:space="preserve">
+    <value>Keine Datenbank gefunden!</value>
+  </data>
+  <data name="ErrorNoSettingsFile" xml:space="preserve">
+    <value>Keine Einstellungsdatei gefunden!</value>
+  </data>
+  <data name="ErrorPrefix" xml:space="preserve">
+    <value>Folgender Fehler ist aufgetreten:
+
+</value>
+  </data>
+  <data name="FirstStart" xml:space="preserve">
+    <value>(Dies ist normal, wenn das Programm zum allerersten mal auf einem neuen Computer gestartet wird.)</value>
+  </data>
+  <data name="FormatConfirmDelete" xml:space="preserve">
+    <value>Den Eintrag '{0}' wirklich löschen?</value>
+  </data>
+  <data name="FormatDuplicateWarning" xml:space="preserve">
+    <value>Der Eintrag '{0}' existiert bereits!</value>
+  </data>
+  <data name="InvalidPriceError" xml:space="preserve">
+    <value>Es wurde kein gültiger Wert für Preis eingetragen!</value>
+  </data>
+  <data name="InvoiceExportFilter" xml:space="preserve">
+    <value>PDF Datei</value>
+  </data>
+  <data name="LabelAddedUser" xml:space="preserve">
+    <value>Benutzer wurde(n) automatisch aus der Datenbank in die Nutzerliste eingefügt.</value>
+  </data>
+  <data name="LabelAverageCost" xml:space="preserve">
+    <value>Durchschnittliche Kosten</value>
+  </data>
+  <data name="LabelAverageProfit" xml:space="preserve">
+    <value>Durchschnittlicher Gewinn</value>
+  </data>
+  <data name="LabelAverageSell" xml:space="preserve">
+    <value>Durchschnittlicher Verkaufspreis</value>
+  </data>
+  <data name="LabelBrand" xml:space="preserve">
+    <value>Marke</value>
+  </data>
+  <data name="LabelBrands" xml:space="preserve">
+    <value>Marken</value>
+  </data>
+  <data name="LabelCalculation" xml:space="preserve">
+    <value>Berechnung</value>
+  </data>
+  <data name="LabelCaptcha" xml:space="preserve">
+    <value>Captcha zur Freigabe:</value>
+  </data>
+  <data name="LabelCaptcha2" xml:space="preserve">
+    <value>Captcha eingeben:</value>
+  </data>
+  <data name="LabelCar" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="LabelCarsInDatabase" xml:space="preserve">
+    <value>Autos in der Datenbank</value>
+  </data>
+  <data name="LabelComment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="LabelCost" xml:space="preserve">
+    <value>Kosten</value>
+  </data>
+  <data name="LabelDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="LabelDefaultValue" xml:space="preserve">
+    <value>Standardwert</value>
+  </data>
+  <data name="LabelDelete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="LabelDescription" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="LabelDownPayment" xml:space="preserve">
+    <value>Anzahlung</value>
+  </data>
+  <data name="LabelEntry" xml:space="preserve">
+    <value>Einträge</value>
+  </data>
+  <data name="LabelID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="LabelInclude" xml:space="preserve">
+    <value>Einberechnen</value>
+  </data>
+  <data name="LabelInvoice" xml:space="preserve">
+    <value>Rechnung</value>
+  </data>
+  <data name="LabelKey" xml:space="preserve">
+    <value>Schlüssel</value>
+  </data>
+  <data name="LabelLanguage" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LabelModel" xml:space="preserve">
+    <value>Modell</value>
+  </data>
+  <data name="LabelNewEntry" xml:space="preserve">
+    <value>Neues Teil</value>
+  </data>
+  <data name="LabelNo" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="LabelNotInclude" xml:space="preserve">
+    <value>Nicht einberechnet</value>
+  </data>
+  <data name="LabelParts" xml:space="preserve">
+    <value>Teile</value>
+  </data>
+  <data name="LabelPayout" xml:space="preserve">
+    <value>Ausschüttung</value>
+  </data>
+  <data name="LabelPerson" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="LabelPosition" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="LabelPrice" xml:space="preserve">
+    <value>Preis</value>
+  </data>
+  <data name="LabelProfit" xml:space="preserve">
+    <value>Einnahmen</value>
+  </data>
+  <data name="LabelRestPayment" xml:space="preserve">
+    <value>Rest</value>
+  </data>
+  <data name="LabelSettings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="LabelSum" xml:space="preserve">
+    <value>Summe</value>
+  </data>
+  <data name="LabelTotal" xml:space="preserve">
+    <value>Gesamt</value>
+  </data>
+  <data name="LabelTotalProfit" xml:space="preserve">
+    <value>Gesamtgewinn in</value>
+  </data>
+  <data name="LabelUsers" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="LabelValue" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="LabelWin" xml:space="preserve">
+    <value>Gewinn</value>
+  </data>
+  <data name="LabelYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="MenuOptions" xml:space="preserve">
+    <value>&amp;Optionen</value>
+  </data>
+  <data name="MenuView" xml:space="preserve">
+    <value>&amp;Anzeige</value>
+  </data>
+  <data name="NegativeDownPaymentWarning" xml:space="preserve">
+    <value>Soll die Anzahlung wirklich negativ sein?</value>
+  </data>
+  <data name="NegativePriceWarning" xml:space="preserve">
+    <value>Soll der Preis wirklich negativ sein?</value>
+  </data>
+  <data name="NoCarSelected" xml:space="preserve">
+    <value>Kein Auto ausgewählt!</value>
+  </data>
+  <data name="NoUsersWarning" xml:space="preserve">
+    <value>Es wurden noch keine Benutzer angelegt!
+Ohne Benutzer ist das Programm nur eingeschränkt nutzbar.
+
+Jetzt Benutzer anlegen?</value>
+  </data>
+  <data name="PayoutPerPerson" xml:space="preserve">
+    <value>Ausschüttung pro Person</value>
+  </data>
+  <data name="SpendingPerPerson" xml:space="preserve">
+    <value>Ausgaben pro Person</value>
+  </data>
+  <data name="Spendings" xml:space="preserve">
+    <value>Ausgaben</value>
+  </data>
+  <data name="TitleDeleteDatabase" xml:space="preserve">
+    <value>Datenbank löschen</value>
+  </data>
+  <data name="TitleEditCar" xml:space="preserve">
+    <value>Auto bearbeiten</value>
+  </data>
+  <data name="TitleEditEntry" xml:space="preserve">
+    <value>Eintrag bearbeiten</value>
+  </data>
+  <data name="TitleGraph" xml:space="preserve">
+    <value>Diagramm</value>
+  </data>
+  <data name="TitleNewCar" xml:space="preserve">
+    <value>Neues Auto anlegen</value>
+  </data>
+  <data name="TitleStats" xml:space="preserve">
+    <value>Statistiken</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+</root>
